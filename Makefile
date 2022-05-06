@@ -1,6 +1,6 @@
 MAIN_MAKEFILE=1
 include config.mak
-SRC_PATH=./
+SRC_PATH=${pwd}
 vpath %.c    $(SRC_PATH)
 vpath %.cpp  $(SRC_PATH)
 vpath %.h    $(SRC_PATH)
